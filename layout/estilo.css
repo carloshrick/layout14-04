@@ -1,0 +1,51 @@
+*{  
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{ 
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(139, 135, 222); 
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+}
+
+#foto {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+header{ 
+    display: flex;
+    justify-content: center;
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDc5OWQwNjVlNjg3MDkwYjlhY2U0OTIwODJlMTBhMDhjMjRjMDUwMyZjdD1n/VwOESKUlJNaURtMJrN/giphy.gif);
+    border-top: solid 0.09rem;
+    border-bottom: solid 0.09rem;
+    border-radius:2rem;
+}
+
+main{
+    justify-content: center;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5rem;
+    border-left: solid 0.09rem;
+    border-right: solid 0.09rem;
+    border-bottom: solid 0.09rem;
+    border-radius: 5%;
+}
+
+section{
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: solid 0.05rem;
+    padding-bottom: 3rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3rem;
+}
